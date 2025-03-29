@@ -1,7 +1,7 @@
 # NiMoNa-Swarm
 This repo contains:
-- the code written (saved in irregular intervals) (total size: ~0.34 MiB)
-- media produced by the code (animations and graphs) (total size: ~1.84 GiB)
+- the code written (saved in irregular intervals) <!--(total size: ~0.34 MiB)-->
+- media produced by the code (animations and graphs) <!--(total size: ~1.84 GiB)-->
   
 ### Note on media
 This repo is a complete dump of everything produced. Some animations may be glitchy, show empty domains $\Omega$, or be at a zoom level where nothing interesting can be seen. The lab report .pdf contains links to specific pieces of media to demonstrate certain points, but besides those, most animations are not very interesting. 
