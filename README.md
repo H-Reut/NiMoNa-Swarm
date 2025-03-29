@@ -5,6 +5,7 @@ This repo contains:
   
 ### Note on media
 This repo is a complete dump of everything produced. Some animations may be glitchy, show empty domains $\Omega$, or be at a zoom level where nothing interesting can be seen. The lab report .pdf contains links to specific pieces of media to demonstrate certain points, but besides those, most animations are not very interesting. 
+The media in the folder "100 2nd order rk4 morse extension predator prey" was not created by me.
 
 ### Note on code
 Similarly, the code may crash or simply be unfinished. I didn't save every iteration of the code, since many times after creating one animation only some parameters needed to be changed to produce the next animation. If you want to run the code yourself, note the following:
