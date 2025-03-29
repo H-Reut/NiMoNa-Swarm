@@ -1,0 +1,2 @@
+surface files have letters (a,b,...)
+pc filed have "animated" or number+animated(01animated, 02animated, ...)
