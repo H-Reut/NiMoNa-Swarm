@@ -20,24 +20,24 @@ If you want to run the code yourself, note the following:
   The program can create temporary files in that folder which are usually deleted automatically, but be sure to check and delete afterwards.
 - If visualization is done with `visualization_ffmpeg.py`, [FFmpeg](https://ffmpeg.org/download.html) needs to be installed and added to the PATH environment variable. FFmpeg converts the frames (.png) to videos (.mov or .mp4).
 - I used Python 3.11, 3.12, and 3.13 but any Python 3 version should work.
-The code evolved over time. Depending on what I studied, some parts were added or removed (usually commented out). 
-For example when improving the efficiency (runtime) of a function, many implementations of the same function would exist. But in the next version most of those would be removed again. So there is no one definitive version. 
-Here is a quick summary of the versions:
-0.1 was my first implementation, without group input. 
-0.2 
-0.3 
-1.1 The 1st order ODE model we derived together
-1.2 
-1.3 
-1.4 
-2.1 
-3.1 2nd order ODE model. Implementation of an alternative solver; comparison with our main solver for the ODE
-3.2 many implementations of morse functions, goal was to find the fastest.
-4.1 
-4.2 
-5.1 
-5.2 runtime comparison of different implementation for morse function. runtimes are already calculated in 'runtimes.py'
-6.1 
-6.2 
-Similarly, the code may crash or simply be unfinished. 
-I didn't save every iteration of the code, since many times after creating one animation only some parameters needed to be changed to produce the next animation. 
+The code evolved over time. I didn't save every iteration of the code, since many times after creating one animation only some parameters needed to be changed to produce the next animation.
+Depending on what I studied, some parts were added or removed (usually commented out). 
+For example when improving the efficiency (runtime) of a function, many implementations of the same function would exist. But in the next version most of those would be removed again. So there is no one definitive version.
+
+Here is a quick summary of the versions:  
+0.1 was my first implementation, without group input.  
+0.2 -  
+0.3 -  
+1.1 The 1st order ODE model we derived together  
+1.2 -  
+1.3 -  
+1.4 -  
+2.1 -  
+3.1 2nd order ODE model. Implementation of an alternative solver; comparison with our main solver for the ODE  
+3.2 many implementations of morse functions, goal was to find the fastest.  
+4.1 -  
+4.2 -  
+5.1 -  
+5.2 runtime comparison of different implementation for morse function. runtimes are already calculated in 'runtimes.py'  
+6.1 -  
+6.2 -  
