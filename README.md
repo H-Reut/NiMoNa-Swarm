@@ -39,4 +39,4 @@ Here is a quick summary of the versions:
 5.0 -  
 5.1 - runtime comparison of different implementation for morse function. runtimes are already calculated in 'runtimes.py'  
 6.0 -  
-6.1 -  
+6.1 - final iteration to create animations
