@@ -18,3 +18,4 @@ Similarly, the code may crash or simply be unfinished. I didn't save every itera
 - the created animations will be placed either in the directory from where the program is run, or in a directory specified by the variable `img_save_path` at the beginning (after the imports) of the `main.py` file. By default this directory is `H:/dump/`. The directory needs to exist before launching the code, otherwise the program will likely crash. The program can create temporary files which are usually deleted automatically, but be sure to check afterwards.
 - If visualization is done with `visualization_ffmpeg.py`, [FFmpeg](https://ffmpeg.org/download.html) needs to be installed and added to the PATH environment variable. FFmpeg converts the frames (.png) to videos (.mov or .mp4).
 - I used Python 3.11, 3.12, and 3.13 but any Python 3 version should work.
+The code is 
