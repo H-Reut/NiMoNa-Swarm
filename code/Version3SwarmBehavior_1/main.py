@@ -91,25 +91,26 @@ print()
 
 
 
-def yHans_GeneralForm(t, x_t, currtime):
-    return np.stack(((currtime-t)*behavior(t, x_t[:,0,:]), behavior(t, x_t[:,0,:])), axis=1)
+def yTriangle_GeneralForm(t, x_t, currtime):
+    func = behavior(t, x_t[:,0,:])
+    return np.stack(((currtime-t)*func, func), axis=1)
 
-xHans = np.zeros((n+1, k, 2, 2))  # timesteps; agents; pos,vel; x,y
-xHans[0,:,0,:] = p_0
-xHans[0,:,1,:] = v_0
-# solving Hans
+xTriangle = np.zeros((n+1, k, 2, 2))  # timesteps; agents; pos,vel; x,y
+xTriangle[0,:,0,:] = p_0
+xTriangle[0,:,1,:] = v_0
+# solving Triangle
 for i in range(n):
     print(f'solving PDE. timestep\t{str(i).rjust(len(str(n)))} / {n}\t({i/n:.0%})', end="\r")
-    def yHans(t, x_t):
-        return yHans_GeneralForm(t, x_t, t_[i+1])
-    xHans[i+1] = xHans[i] + dt*np.stack((xHans[i,:,1,:],np.zeros((k, 2))), axis=1) + dt*rk4(t_[i], xHans[i], dt, yHans)
+    def yTriangle(t, x_t):
+        return yTriangle_GeneralForm(t, x_t, t_[i+1])
+    xTriangle[i+1] = xTriangle[i] + dt*np.stack((xTriangle[i,:,1,:],np.zeros((k, 2))), axis=1) + dt*rk4(t_[i], xTriangle[i], dt, yTriangle)
     #plt.scatter(p[i, :, 0], p[i, :, 1])
     #plt.show()
 print()
 
 #print(x.shape)
 #print(x2.shape)
-xStacked = np.concatenate((xNaive, xHans), axis=1)
+xStacked = np.concatenate((xNaive, xTriangle), axis=1)
 #print(xStacked.shape)
 colors_for_xStacked = np.array([(['r']*k + ['c']*k) for i in range(n+1)])
 slice = 1
