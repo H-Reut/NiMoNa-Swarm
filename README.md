@@ -4,7 +4,7 @@ This repo contains:
 - media produced by the code (animations and graphs) <!--(total size: ~1.84 GiB)-->
   
 ### Note on media
-This repo is a complete dump of everything produced. Some animations may be glitchy, show empty domains $\Omega$, or be at a zoom level where nothing interesting can be seen. The lab report .pdf contains links to specific pieces of media to demonstrate certain points, but besides those, most animations are not very interesting. 
+This repo is an (almost) complete dump of everything produced. Some animations may be glitchy, show empty domains $\Omega$, or be at a zoom level where nothing interesting can be seen. The lab report .pdf contains links to specific pieces of media to demonstrate certain points, but besides those, most animations are not very interesting. 
 The media in the folder "100 2nd order rk4 morse extension predator prey" was not created by me.
 
 ### Note on code
