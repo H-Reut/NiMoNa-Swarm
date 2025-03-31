@@ -25,19 +25,18 @@ Depending on what I studied, some parts were added or removed (usually commented
 For example when improving the efficiency (runtime) of a function, many implementations of the same function would exist. But in the next version most of those would be removed again. So there is no one definitive version.
 
 Here is a quick summary of the versions:  
-0.1 was my first implementation, without group input.  
+0.0 was my first implementation, without group input.  
+0.1 -  
 0.2 -  
-0.3 -  
-1.1 The 1st order ODE model we derived together  
+1.0 The 1st order ODE model we derived together  
+1.1 -  
 1.2 -  
 1.3 -  
-1.4 -  
-2.1 -  
-3.1 2nd order ODE model. Implementation of an alternative solver; comparison with our main solver for the ODE  
-3.2 many implementations of morse functions, goal was to find the fastest.  
+3.0 2nd order ODE model. Implementation of an alternative solver; comparison with our main solver for the ODE  
+3.1 many implementations of morse functions, goal was to find the fastest.  
+4.0 -  
 4.1 -  
-4.2 -  
-5.1 -  
-5.2 runtime comparison of different implementation for morse function. runtimes are already calculated in 'runtimes.py'  
+5.0 -  
+5.1 runtime comparison of different implementation for morse function. runtimes are already calculated in 'runtimes.py'  
+6.0 -  
 6.1 -  
-6.2 -  
